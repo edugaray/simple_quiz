@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,100;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+  <div class="page-container">
+  <div class="quiz-container">
+    <div class="quiz-title">
+      <h1>
+        <p>Can you guess the TV show from its opening scene?</p>
+      </h1>
+    </div>
+    <div class="quiz-questions">
+      <div class="quiz-progress">
+        <div id="counter" class="counter">
+          <p><strong>1</strong> / 15</p>
+        </div>
+      </div>
+      <div id="1" class="trivia-question">
+        <div class="quiz-card">
+          <div class="quiz-image">
+            <div class="media-container">
+              <img alt="dessert" class="img-responsive" src="media/dessert.jpeg">
+            </div>
+          </div>
+        </div>
+        <div class="drawer">
+          <div class="answers-wrapper">
+            <div class="quiz-answers-wrapper">
+              <div class="answer-wrapper">
+                <button class="single-answer">
+                  <div class="quiz-answer">
+                    <div class="text-viewer-wrapper">
+                      <h3>
+                        <p>Westworld</p>
+                      </h3>
+                    </div>
+                  </div>
+              </div>
+              </button>
+              <div class="answer-wrapper">
+                <button class="single-answer is-correct">
+                  <div class="quiz-answer">
+                    <div class="text-viewer-wrapper">
+                      <h3>
+                        <p>Breaking Bad</p>
+                      </h3>
+                    </div>
+                  </div>
+              </div>
+              </button>
+              <div class="answer-wrapper">
+                <button class="single-answer">
+                  <div class="quiz-answer">
+                    <div class="text-viewer-wrapper">
+                      <h3>
+                        <p>Narcos</p>
+                      </h3>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div id="2" class="trivia-question hidden">
+        <div class="quiz-card">
+          <div class="quiz-image">
+            <div class="media-container">
+              <img alt="dessert" class="img-responsive" src="media/darkalley.png">
+            </div>
+          </div>
+        </div>
+        <div class="drawer">
+          <div class="answers-wrapper">
+            <div class="quiz-answers-wrapper">
+              <div class="answer-wrapper">
+                <button class="single-answer is-correct">
+                  <div class="quiz-answer">
+                    <div class="text-viewer-wrapper">
+                      <h3>
+                        <p>Peaky Blinders</p>
+                      </h3>
+                    </div>
+                  </div>
+              </div>
+              </button>
+              <div class="answer-wrapper">
+                <button class="single-answer">
+                  <div class="quiz-answer">
+                    <div class="text-viewer-wrapper">
+                      <h3>
+                        <p>Lost</p>
+                      </h3>
+                    </div>
+                  </div>
+              </div>
+              </button>
+              <div class="answer-wrapper">
+                <button class="single-answer">
+                  <div class="quiz-answer">
+                    <div class="text-viewer-wrapper">
+                      <h3>
+                        <p>How I Met Your Mother</p>
+                      </h3>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div id="3" class="trivia-question hidden">
+        <div class="quiz-card">
+          <div class="quiz-image">
+            <div class="media-container">
+              <img alt="dessert" class="img-responsive" src="media/policecar.png">
+            </div>
+          </div>
+        </div>
+        <div class="drawer">
+          <div class="answers-wrapper">
+            <div class="quiz-answers-wrapper">
+              <div class="answer-wrapper">
+                <button class="single-answer">
+                  <div class="quiz-answer">
+                    <div class="text-viewer-wrapper">
+                      <h3>
+                        <p>Bodyguard</p>
+                      </h3>
+                    </div>
+                  </div>
+              </div>
+              </button>
+              <div class="answer-wrapper">
+                <button class="single-answer is-correct">
+                  <div class="quiz-answer">
+                    <div class="text-viewer-wrapper">
+                      <h3>
+                        <p>Line Of Duty</p>
+                      </h3>
+                    </div>
+                  </div>
+              </div>
+              </button>
+              <div class="answer-wrapper">
+                <button class="single-answer">
+                  <div class="quiz-answer">
+                    <div class="text-viewer-wrapper">
+                      <h3>
+                        <p>Collateral</p>
+                      </h3>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div id="4" class="trivia-question hidden">
+        <div class="quiz-card">
+          <div class="quiz-image">
+            <div class="media-container">
+              <img alt="dessert" class="img-responsive" src="media/middleearst.png">
+            </div>
+          </div>
+        </div>
+        <div class="drawer">
+          <div class="answers-wrapper">
+            <div class="quiz-answers-wrapper">
+              <div class="answer-wrapper">
+                <button class="single-answer">
+                  <div class="quiz-answer">
+                    <div class="text-viewer-wrapper">
+                      <h3>
+                        <p>Shooter</p>
+                      </h3>
+                    </div>
+                  </div>
+              </div>
+              </button>
+              <div class="answer-wrapper">
+                <button class="single-answer">
+                  <div class="quiz-answer">
+                    <div class="text-viewer-wrapper">
+                      <h3>
+                        <p>The Looming Tower</p>
+                      </h3>
+                    </div>
+                  </div>
+              </div>
+              </button>
+              <div class="answer-wrapper">
+                <button class="single-answer is-correct">
+                  <div class="quiz-answer">
+                    <div class="text-viewer-wrapper">
+                      <h3>
+                        <p>Homeland</p>
+                      </h3>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div id="5" class="trivia-question hidden">
+        <div class="quiz-card">
+          <div class="quiz-image">
+            <div class="media-container">
+              <img alt="dessert" class="img-responsive" src="media/throughtawindow.png">
+            </div>
+          </div>
+        </div>
+        <div class="drawer">
+          <div class="answers-wrapper">
+            <div class="quiz-answers-wrapper">
+              <div class="answer-wrapper">
+                <button class="single-answer is-correct">
+                  <div class="quiz-answer">
+                    <div class="text-viewer-wrapper">
+                      <h3>
+                        <p>Madmen</p>
+                      </h3>
+                    </div>
+                  </div>
+              </div>
+              </button>
+              <div class="answer-wrapper">
+                <button class="single-answer">
+                  <div class="quiz-answer">
+                    <div class="text-viewer-wrapper">
+                      <h3>
+                        <p>The West Wing</p>
+                      </h3>
+                    </div>
+                  </div>
+              </div>
+              </button>
+              <div class="answer-wrapper">
+                <button class="single-answer">
+                  <div class="quiz-answer">
+                    <div class="text-viewer-wrapper">
+                      <h3>
+                        <p>Sopranos</p>
+                      </h3>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div id="6" class="trivia-question hidden">
+        <div class="quiz-card">
+          <div class="quiz-image">
+            <div class="media-container">
+              <img alt="dessert" class="img-responsive" src="media/throughadoor.png">
+            </div>
+          </div>
+        </div>
+        <div class="drawer">
+          <div class="answers-wrapper">
+            <div class="quiz-answers-wrapper">
+              <div class="answer-wrapper">
+                <button class="single-answer">
+                  <div class="quiz-answer">
+                    <div class="text-viewer-wrapper">
+                      <h3>
+                        <p>The Handmaid's Tale</p>
+                      </h3>
+                    </div>
+                  </div>
+              </div>
+              </button>
+              <div class="answer-wrapper">
+                <button class="single-answer">
+                  <div class="quiz-answer">
+                    <div class="text-viewer-wrapper">
+                      <h3>
+                        <p>House Of Cards</p>
+                      </h3>
+                    </div>
+                  </div>
+              </div>
+              </button>
+              <div class="answer-wrapper">
+                <button class="single-answer is-correct">
+                  <div class="quiz-answer">
+                    <div class="text-viewer-wrapper">
+                      <h3>
+                        <p>The Crown</p>
+                      </h3>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div id="7" class="trivia-question hidden">
+        <div class="quiz-card">
+          <div class="quiz-image">
+            <div class="media-container">
+              <img alt="dessert" class="img-responsive" src="media/door.png">
+            </div>
+          </div>
+        </div>
+        <div class="drawer">
+          <div class="answers-wrapper">
+            <div class="quiz-answers-wrapper">
+              <div class="answer-wrapper">
+                <button class="single-answer">
+                  <div class="quiz-answer">
+                    <div class="text-viewer-wrapper">
+                      <h3>
+                        <p>Catastrophe</p>
+                      </h3>
+                    </div>
+                  </div>
+              </div>
+              </button>
+              <div class="answer-wrapper">
+                <button class="single-answer is-correct">
+                  <div class="quiz-answer">
+                    <div class="text-viewer-wrapper">
+                      <h3>
+                        <p>Fleabag</p>
+                      </h3>
+                    </div>
+                  </div>
+              </div>
+              </button>
+              <div class="answer-wrapper">
+                <button class="single-answer">
+                  <div class="quiz-answer">
+                    <div class="text-viewer-wrapper">
+                      <h3>
+                        <p>Peepshow</p>
+                      </h3>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div id="8" class="trivia-question hidden">
+        <div class="quiz-card">
+          <div class="quiz-image">
+            <div class="media-container">
+              <img alt="dessert" class="img-responsive" src="media/citylights.png">
+            </div>
+          </div>
+        </div>
+        <div class="drawer">
+          <div class="answers-wrapper">
+            <div class="quiz-answers-wrapper">
+              <div class="answer-wrapper">
+                <button class="single-answer is-correct">
+                  <div class="quiz-answer">
+                    <div class="text-viewer-wrapper">
+                      <h3>
+                        <p>Suits</p>
+                      </h3>
+                    </div>
+                  </div>
+              </div>
+              </button>
+              <div class="answer-wrapper">
+                <button class="single-answer">
+                  <div class="quiz-answer">
+                    <div class="text-viewer-wrapper">
+                      <h3>
+                        <p>Law & Order SVU</p>
+                      </h3>
+                    </div>
+                  </div>
+              </div>
+              </button>
+              <div class="answer-wrapper">
+                <button class="single-answer">
+                  <div class="quiz-answer">
+                    <div class="text-viewer-wrapper">
+                      <h3>
+                        <p>Seinfield</p>
+                      </h3>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div id="9" class="trivia-question hidden">
+        <div class="quiz-card">
+          <div class="quiz-image">
+            <div class="media-container">
+              <img alt="dessert" class="img-responsive" src="media/forest.png">
+            </div>
+          </div>
+        </div>
+        <div class="drawer">
+          <div class="answers-wrapper">
+            <div class="quiz-answers-wrapper">
+              <div class="answer-wrapper">
+                <button class="single-answer is-correct">
+                  <div class="quiz-answer">
+                    <div class="text-viewer-wrapper">
+                      <h3>
+                        <p>Stranger Things</p>
+                      </h3>
+                    </div>
+                  </div>
+              </div>
+              </button>
+              <div class="answer-wrapper">
+                <button class="single-answer">
+                  <div class="quiz-answer">
+                    <div class="text-viewer-wrapper">
+                      <h3>
+                        <p>Fargo</p>
+                      </h3>
+                    </div>
+                  </div>
+              </div>
+              </button>
+              <div class="answer-wrapper">
+                <button class="single-answer">
+                  <div class="quiz-answer">
+                    <div class="text-viewer-wrapper">
+                      <h3>
+                        <p>Twin Peaks</p>
+                      </h3>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div id="10" class="trivia-question hidden">
+        <div class="quiz-card">
+          <div class="quiz-image">
+            <div class="media-container">
+              <img alt="dessert" class="img-responsive" src="media/yardentrance.png">
+            </div>
+          </div>
+        </div>
+        <div class="drawer">
+          <div class="answers-wrapper">
+            <div class="quiz-answers-wrapper">
+              <div class="answer-wrapper">
+                <button class="single-answer">
+                  <div class="quiz-answer">
+                    <div class="text-viewer-wrapper">
+                      <h3>
+                        <p>Balamory</p>
+                      </h3>
+                    </div>
+                  </div>
+              </div>
+              </button>
+              <div class="answer-wrapper">
+                <button class="single-answer">
+                  <div class="quiz-answer">
+                    <div class="text-viewer-wrapper">
+                      <h3>
+                        <p>Luther</p>
+                      </h3>
+                    </div>
+                  </div>
+              </div>
+              </button>
+              <div class="answer-wrapper">
+                <button class="single-answer is-correct">
+                  <div class="quiz-answer">
+                    <div class="text-viewer-wrapper">
+                      <h3>
+                        <p>Gavin & Stacey</p>
+                      </h3>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div id="11" class="trivia-question hidden">
+        <div class="quiz-card">
+          <div class="quiz-image">
+            <div class="media-container">
+              <img alt="dessert" class="img-responsive" src="media/oc.png">
+            </div>
+          </div>
+        </div>
+        <div class="drawer">
+          <div class="answers-wrapper">
+            <div class="quiz-answers-wrapper">
+              <div class="answer-wrapper">
+                <button class="single-answer">
+                  <div class="quiz-answer">
+                    <div class="text-viewer-wrapper">
+                      <h3>
+                        <p>The O.C.</p>
+                      </h3>
+                    </div>
+                  </div>
+              </div>
+              </button>
+              <div class="answer-wrapper">
+                <button class="single-answer is-correct">
+                  <div class="quiz-answer">
+                    <div class="text-viewer-wrapper">
+                      <h3>
+                        <p>Arrested Development</p>
+                      </h3>
+                    </div>
+                  </div>
+              </div>
+              </button>
+              <div class="answer-wrapper">
+                <button class="single-answer">
+                  <div class="quiz-answer">
+                    <div class="text-viewer-wrapper">
+                      <h3>
+                        <p>Modern Family</p>
+                      </h3>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div id="12" class="trivia-question hidden">
+        <div class="quiz-card">
+          <div class="quiz-image">
+            <div class="media-container">
+              <img alt="dessert" class="img-responsive" src="media/flesh.png">
+            </div>
+          </div>
+        </div>
+        <div class="drawer">
+          <div class="answers-wrapper">
+            <div class="quiz-answers-wrapper">
+              <div class="answer-wrapper">
+                <button class="single-answer is-correct">
+                  <div class="quiz-answer">
+                    <div class="text-viewer-wrapper">
+                      <h3>
+                        <p>Grey's Anatomy</p>
+                      </h3>
+                    </div>
+                  </div>
+              </div>
+              </button>
+              <div class="answer-wrapper">
+                <button class="single-answer">
+                  <div class="quiz-answer">
+                    <div class="text-viewer-wrapper">
+                      <h3>
+                        <p>Dexter</p>
+                      </h3>
+                    </div>
+                  </div>
+              </div>
+              </button>
+              <div class="answer-wrapper">
+                <button class="single-answer">
+                  <div class="quiz-answer">
+                    <div class="text-viewer-wrapper">
+                      <h3>
+                        <p>Nip/Tuck</p>
+                      </h3>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div id="13" class="trivia-question hidden">
+        <div class="quiz-card">
+          <div class="quiz-image">
+            <div class="media-container">
+              <img alt="dessert" class="img-responsive" src="media/bedroom.png">
+            </div>
+          </div>
+        </div>
+        <div class="drawer">
+          <div class="answers-wrapper">
+            <div class="quiz-answers-wrapper">
+              <div class="answer-wrapper">
+                <button class="single-answer">
+                  <div class="quiz-answer">
+                    <div class="text-viewer-wrapper">
+                      <h3>
+                        <p>Malcom In The Middle</p>
+                      </h3>
+                    </div>
+                  </div>
+              </div>
+              </button>
+              <div class="answer-wrapper">
+                <button class="single-answer is-correct">
+                  <div class="quiz-answer">
+                    <div class="text-viewer-wrapper">
+                      <h3>
+                        <p>Black Mirror</p>
+                      </h3>
+                    </div>
+                  </div>
+              </div>
+              </button>
+              <div class="answer-wrapper">
+                <button class="single-answer">
+                  <div class="quiz-answer">
+                    <div class="text-viewer-wrapper">
+                      <h3>
+                        <p>The Americans</p>
+                      </h3>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div id="14" class="trivia-question hidden">
+        <div class="quiz-card">
+          <div class="quiz-image">
+            <div class="media-container">
+              <img alt="dessert" class="img-responsive" src="media/hallway.png">
+            </div>
+          </div>
+        </div>
+        <div class="drawer">
+          <div class="answers-wrapper">
+            <div class="quiz-answers-wrapper">
+              <div class="answer-wrapper">
+                <button class="single-answer">
+                  <div class="quiz-answer">
+                    <div class="text-viewer-wrapper">
+                      <h3>
+                        <p>Scrubs</p>
+                      </h3>
+                    </div>
+                  </div>
+              </div>
+              </button>
+              <div class="answer-wrapper">
+                <button class="single-answer is-correct">
+                  <div class="quiz-answer">
+                    <div class="text-viewer-wrapper">
+                      <h3>
+                        <p>Big Bang Theory</p>
+                      </h3>
+                    </div>
+                  </div>
+              </div>
+              </button>
+              <div class="answer-wrapper">
+                <button class="single-answer">
+                  <div class="quiz-answer">
+                    <div class="text-viewer-wrapper">
+                      <h3>
+                        <p>Brooklyn 99</p>
+                      </h3>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div id="15" class="trivia-question hidden">
+        <div class="quiz-card">
+          <div class="quiz-image">
+            <div class="media-container">
+              <img alt="dessert" class="img-responsive" src="media/245am.png">
+            </div>
+          </div>
+        </div>
+        <div class="drawer">
+          <div class="answers-wrapper">
+            <div class="quiz-answers-wrapper">
+              <div class="answer-wrapper">
+                <button class="single-answer is-correct">
+                  <div class="quiz-answer">
+                    <div class="text-viewer-wrapper">
+                      <h3>
+                        <p>It's Always Sunny In Philadelphia</p>
+                      </h3>
+                    </div>
+                  </div>
+              </div>
+              </button>
+              <div class="answer-wrapper">
+                <button class="single-answer">
+                  <div class="quiz-answer">
+                    <div class="text-viewer-wrapper">
+                      <h3>
+                        <p>Russian Doll</p>
+                      </h3>
+                    </div>
+                  </div>
+              </div>
+              </button>
+              <div class="answer-wrapper">
+                <button class="single-answer">
+                  <div class="quiz-answer">
+                    <div class="text-viewer-wrapper">
+                      <h3>
+                        <p>24</p>
+                      </h3>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="quiz-score answer-wrapper hidden">
+    </div>
+  </div>
+
+
+</body>
+
+</html>
+
+<script src="scripts/main.js"></script>
