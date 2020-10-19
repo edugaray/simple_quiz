@@ -1,14 +1,14 @@
 let counter = parseInt(document.querySelector('.counter strong').innerHTML);
 let score = 0;
 const updatecounters = function () {
+  let element = this.closest('.trivia-question');
   if (this.classList.contains('is-correct')) {
     score += 1;
   }
-  // else {
-  //   console.log(this.querySelector('is-correct'));
-  // }
+  else {
+  element.querySelector('.is-correct').classList.add('actual-answer');
+  }
   counter += 1;
-  let element = this.closest('.trivia-question');
   this.closest('.quiz-answers-wrapper').classList.add('clicked');
   element.classList.add('hiding');
 

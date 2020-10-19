@@ -431,12 +431,7 @@ h2 {
   to {background-color: rgb(197, 5, 5);}
 }
 
-.single-answer:focus.is-correct {
-  background-color: rgb(61, 172, 51);
-  animation: iscorrect 0.2s 10;
-}
-
-.single-answer.actual-answer {
+.single-answer:focus.is-correct, .single-answer.actual-answer {
   background-color: rgb(61, 172, 51);
   animation: iscorrect 0.2s 10;
 }
