@@ -385,11 +385,6 @@ h2 {
   text-align: center;
 }
 
-.page-container {
-  width: 40%;
-  margin: 0 30%;
-}
-
 .trivia-question {
   margin: 20px auto;
 }
@@ -402,8 +397,7 @@ h2 {
 .img-responsive {
   width: 100%;
   box-shadow: 5px 10px rgba(128, 124, 124, 0.5);
-  margin-bottom: 20px;
-  height: 500px;
+  margin-bottom: 100px;
 }
 
 .drawer {
@@ -479,3 +473,14 @@ h2 {
 .hidden {
   display: none;
 }
+
+@media only screen and (min-width: 700px){
+  .page-container {
+    width: 40%;
+    margin: 0 30%;
+  }
+  .img-responsive {
+    height: 500px;
+    margin-bottom: 20px;
+  }
+  }
