@@ -1,4 +1,5 @@
-let counter = parseInt(document.querySelector('.counter strong').innerHTML);
+document.addEventListener('DOMContentLoaded', function () {
+  let counter = parseInt(document.querySelector('.counter strong').innerHTML);
 let score = 0;
 const updatecounters = function () {
   let element = this.closest('.trivia-question');
@@ -25,4 +26,5 @@ const updatecounters = function () {
 const buttons = document.querySelectorAll('.single-answer');
 Array.from(buttons).forEach(function (buttons) {
   buttons.addEventListener('click', updatecounters, false);
+});
 });
